@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+    font: inherit;
+    font-family: 'Roboto Mono', monospace;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    /* border: 1px dotted black; */
+}
+/* body{
+    background-color: lightgray;
+} */
+h1{
+    font-size: 4.5rem;
+    font-family: 'Chelsea Market', cursive;
+
+}
+h2{
+    font-size: 1.5rem;
+
+}
+.topInfo{
+    width: 85%;
+    margin: 0 auto;
+}
+.topInfo div{
+    
+    display: inline-block;
+}
+.words{
+    width: 70%;
+}
+.words .part2{
+    width: 60%;
+}
+.topInfo h1,.topInfo h2{ 
+    margin: 5% auto;
+    text-align: center;
+}
+.img{
+    width: 25%;
+    margin: 0 auto;
+    
+}
+.topIMG{   
+    width: 100%;
+    border-radius: 50%;
+    
+
+}
+p{
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+}
+
+.fire{
+    width: 20%;
+    margin: 2% auto;
+    text-align: center;
+    
+}
+.fire img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+.car{
+    width: 25%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.car img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.mountain{
+    width: 100%;
+    height: 50vh;
+    background-image: url(assets/footer_img.jpg);
+    background-size: 100%;
+    background-position: top;
+}
+
+.portal{
+    width: 75%;
+    margin: 2% auto;
+}
+
+.portal a{
+    padding: .5%;
+    width: 15%;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 0 8%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    min-height: 100%;
+    
+}
+.button1{
+    background-color: #FF764E;
+}
+.button2{
+    background-color: #5ED3EB;
+}
+.button3{
+    background-color: #FFCD69;
+}
+
